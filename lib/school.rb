@@ -10,7 +10,7 @@ class	School
 		@roster.has_key?(grade) ? @roster[grade] << name : @roster[grade] = [name]
 		#   @roster[grade] << name
 		# else
-		# 	
+		#
 		# end
 	end
 end
