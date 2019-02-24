@@ -18,5 +18,5 @@ class	School
 		@roster.map do |grade, names|
 		  @roster[grade] = names.sort
 		end
-	end.to_h
+	end
 end
