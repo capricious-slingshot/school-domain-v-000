@@ -7,6 +7,6 @@ class	School
 	end
 
 	def add_student(name, number)
-		@roster << {name: name, number: age}
+		@roster << {"number" => ["name"]}
 	end
 end
