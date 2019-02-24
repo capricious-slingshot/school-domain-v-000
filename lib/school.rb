@@ -3,10 +3,10 @@ class	School
 
   def initialize(name)
     @name = name
-		@roster = []
+		@roster = {}
 	end
 
-	def add_student(name, age)
-		@roster << {name: name, age: age}
+	def add_student(name, number)
+		@roster << {name: name, number: age}
 	end
 end
