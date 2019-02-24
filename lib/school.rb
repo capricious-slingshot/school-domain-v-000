@@ -6,9 +6,7 @@ class	School
 		@roster = {}
 	end
 
-	def add_student(name, grade)
-		names = []
-		name.each {|n| names << n}
-		@roster[grade] = names
+	def add_student(name, grade)		
+		@roster[grade] = [name]
 	end
 end
