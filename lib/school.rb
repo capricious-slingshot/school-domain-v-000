@@ -15,6 +15,8 @@ class	School
 	end
 
 	def sort
-		@roster.sort_by {|k, v| v}.to_h
-	end
+		@roster.map do |grade, names|
+		  @roster[grade] = names.sort
+		end
+	end.to_h
 end
