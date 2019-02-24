@@ -15,6 +15,6 @@ class	School
 	end
 
 	def sort
-		@roster.sort_by {|grade, name| grade}.flatten
+		@roster.sort_by {|grade, name| grade['value'] <=> name['value']}.flatten
 	end
 end
